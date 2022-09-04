@@ -1,0 +1,14 @@
+fieldset
+{
+    height: 300px;
+    width: 300px;
+    border: 2px red solid;
+    background-color:aqua;
+}
+#i1
+{
+    margin-left: 100px;
+    background-color: greenyellow;
+    width: 80px;
+    border-radius: 5px;
+}

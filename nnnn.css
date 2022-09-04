@@ -1,0 +1,18 @@
+#d1
+{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+    flex-direction: row;
+    background-color: blue;
+}
+#d2
+{
+    height: 200px;
+    width: 200px;
+    float: left;
+    flex-direction:column;
+    margin: 10px;
+    background-color: red;
+}

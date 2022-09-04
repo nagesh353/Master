@@ -1,0 +1,14 @@
+#i1
+{
+    border: 1px black solid;
+    border-left: 0px;
+}
+#i2
+{
+    border-right: 0px;
+    outline: 0px;
+}
+#d1
+{
+    display: flex;
+}

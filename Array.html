@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <title>Array</title>
+    <script>
+        var n= new Array()
+        n.push(10)
+        n.push("nagesh")
+        n.push("college")
+        n.push("vbnm")
+        n.push(20.5)
+        n.push(20.5)
+        n.push(20.5)
+        n.pop()
+        n.unshift("hello")
+        n.shift()
+       console.log( n.indexOf("nagesh"))
+        console.log(n)
+        console.log(n.slice(0,2))
+        console.log(n.length)
+        for(var i=0;i<n.length;i++)
+        {
+            console.log(n[i])
+        }
+        let s1=new Set()
+        s1.add(10)
+        s1.add(10)
+        s1.add(20)
+        s1.add("nagesh")
+        s1.add(20.5)
+        console.log(s1)
+        var s2=new Set(n)
+        console.log(s2)
+        var x=[10,20,25,20,30,40,50,60,20]
+        console.log(x)
+        var x1=new Set(x)
+        console.log(x1)
+        //Ananymous function
+        sum=function(num1,num2)
+        {
+            var result=num1+num2;
+            return result
+
+        }
+    var result=sum(10,15)
+    console.log(result)
+    //immediatley invoked function expression,here we are assing the result to a variable
+    var sum=(function name(num1,num2)
+    {
+        var resul=num1+num2
+        return resul
+    })(6,8);
+    console.log(sum)
+    //Arrow function
+     result=(n1,n2,n3)=>{
+        var pro=n1*n2*n3;
+        return pro;
+    }
+    var x=(result(5,6,7)>2000)?"true":"false"
+    console.log(x)
+    </script>
+</html>

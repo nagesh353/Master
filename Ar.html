@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object</title>
+    </head>
+    <body>
+        <input placeholder="Enter your name" id="i1" onkeyup="x()"></input>
+        <br>
+       <p>Hello <strong id="f1"></strong></p>
+        <script>
+         setTimeout(function(){
+           var x= prompt("Enter your name")
+           alert("Hello"+x)
+         },2000)
+
+            const name = new Object();
+            name.movie="naresh";
+            name.age=25;
+            name.add="dfghjk";
+            console.log(name)
+           console.log(name.movie)
+            const hi={
+                name:"naresh",
+                age:20,
+                address:"dfghjkl",
+                lane:"indiramma",
+                get Name()
+                {
+                    return this.name
+                }
+             }
+             function user(name,age)
+             {
+                this.name=name;
+                this.age=age;
+             }
+             let m1=new user("nagesh",23)
+             let m2=new user("naresh",25)
+             console.log(m2)
+             console.log(m1)
+             for(let x in hi)
+             {
+                txt=hi[x]
+                console.log(txt)
+             }
+             var h=[1,2,3,4,5,6,7,8,9,10]
+             h.forEach(print);
+             function print(value)
+             {
+                console.log(value)
+             }
+             let tk="";
+             for(let x in h)
+             {
+                console.log(tk=h[x])
+
+             }
+             console.log(Object.values(hi))
+             let x=hi.Name
+             console.log(x)
+             var s="Nagesh"
+             console.log(s.toUpperCase())
+             console.log(s.substring(2,5))
+             console.log(s.trimEnd())
+             console.log(s.trimStart(),s.trimEnd())
+             console.log(s.length)
+             console.log(s.indexOf("N"))
+             var set=new Map()
+             set.set("apple",20)
+             set.set("orange",40)
+             console.log(set.has("orange"))
+             console.log(set.get("orange"))
+             var m=new Set();
+             m.add(10);
+             m.add(10);
+             m.add(20);
+             m.add(30);
+             console.log(m)
+             function check()
+             {
+               let bname= document.getElementById("i1").value
+               document.getElementById("f1").innerHTML=bname
+             }
+             function y()
+             {
+                x=5;
+                console.log(x)
+             }
+
+             
+             
+
+             
+        
+
+        </script>
+    </body>
+</html>

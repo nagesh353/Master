@@ -1,0 +1,33 @@
+#d1
+{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+#i1
+{
+    border: 2px black solid;
+    padding: 2px;
+    border-right: 0px;
+
+
+}
+#i2
+{
+    border: 2spx black solid;
+    padding: 2px;
+    border: 0px;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+#i3
+{
+    border-left: 0px;
+    outline: 0px;
+    text-align: center;
+    padding: 2px;
+}
+#i4
+{
+    margin-left: 200px;
+}
